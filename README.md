@@ -26,10 +26,10 @@ Users should be able to:
 ### Screenshot
 
 - Mobile Version
-  ('./screenshots/mobile_version.png')
+  [](./screenshots/mobile_version.png)
 
 - Desktop Version
-  ('./screenshots/desktop_version.png')
+  []('./screenshots/desktop_version.png')
 
 ### Links
 
