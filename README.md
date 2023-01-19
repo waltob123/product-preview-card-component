@@ -25,11 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-- Mobile Version
-  [](./screenshots/mobile_version.png)
+- [Mobile Version](./screenshots/mobile_version.png)
 
-- Desktop Version
-  []('./screenshots/desktop_version.png')
+- [Desktop Version]('./screenshots/desktop_version.png')
 
 ### Links
 
