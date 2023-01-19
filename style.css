@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root {
+    font-size: 14px;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section#card {
+    display: flex;
+    max-width: 550px;
+    width: 90%;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-block-end: 1rem;
+    margin-block-start: 1rem;
+}
+
+.card-img {
+    flex-basis: 50%;
+}
+
+section#card div.card-desc {
+    background-color: hsl(0, 0%, 100%);
+    padding-inline: 1.5rem;
+    padding-block: 1.5rem;
+    flex-basis: 50%;
+}
+
+.gray-text {
+    color: hsl(228, 12%, 48%);
+}
+
+.stylish-font {
+    font-family: 'Fraunces', serif;
+}
+
+.product-type, .product-desc, 
+.original-price, .btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-type {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+    margin-block-end: 1.5rem;
+}
+
+.product-name, .product-desc {margin-block-end: 2rem;}
+
+.product-name {
+    font-size: 2rem;
+    line-height: 1;
+    color: hsl(212, 21%, 14%);
+}
+
+.product-desc {
+    line-height: 1.5;
+}
+
+.price {
+    margin-block-end: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.discounted-price {
+    font-size: 2.2rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.original-price {
+    align-self: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color:hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    transition: background-color 1s ease-in-out;
+}
+
+.btn:hover, .btn:focus {
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+
+/* Responsive design for mobile devices */
+@media screen and (max-width: 450px) {
+    section#card {
+        flex-direction: column;
+    }
+}
